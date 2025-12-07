@@ -1,0 +1,26 @@
+{
+  "name": "kachin-visions-empire",
+  "version": "2.0.0",
+  "description": "Kachin Visions Empire - Premium Video Content Platform",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Build step not required for static app'",
+    "deploy": "gh-pages -d .",
+    "generate-icons": "node generate-icons.js"
+  },
+  "keywords": [
+    "pwa",
+    "video",
+    "firebase",
+    "offline",
+    "media"
+  ],
+  "author": "M-Sinwa",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0",
+    "gh-pages": "^5.0.0"
+  },
+  "dependencies": {}
+}
